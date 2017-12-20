@@ -43,7 +43,7 @@ $(function() {
     e.preventDefault();
     var vid = this.id;
     var video = document.getElementById("press-video");
-    $('#video-overlay source').attr("src", "vid/"+vid+'.mp4');
+    $('#video-overlay source').attr("src", "https://s3-us-west-1.amazonaws.com/eight-korea-bbq-vid/"+vid+".mp4");
     $('#press-video')[0].load();
     $('#video-overlay').fadeIn(500);
     $('body').addClass("scrollDisabled");
