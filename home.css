@@ -247,6 +247,8 @@ button>a {
   }
   #scroll-image {
     background-attachment: scroll;
+    /* background-position: 25% center; */
+    height: 300px;
   }
   #mugifuji p {
     margin-bottom: 50px;
@@ -269,5 +271,11 @@ button>a {
   }
   #banner-text>p {
     font-size: 15px;
+  }
+  #eightflavors-wrapper>div {
+    margin: 10px 5%;
+  }
+  .press-row img {
+    margin: 20px 3px;
   }
 }
