@@ -161,8 +161,8 @@ menubar {
 
 /* section */
 section {
+  padding: 80px 0;
   opacity: 0;
-  height: 1000px;
   width: 950px;
   margin: auto;
 }
