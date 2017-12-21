@@ -26,6 +26,9 @@ $(function() {
       $('#'+details).css({"display":"flex"}).hide().slideDown(300, function() {
           sliding = false;
         });
+        $('html,body').animate({
+          scrollTop: $('#eightflavors-description').offset().top - 200
+        }, 300);
     } else if (!sliding) {
       $('.flavorBtn.active').removeClass("active");
       $(this).addClass("active");
@@ -35,6 +38,9 @@ $(function() {
           sliding = false;
         })
       });
+      $('html,body').animate({
+        scrollTop: $('#eightflavors-description').offset().top - 200
+      }, 100);
     }
   });
 
