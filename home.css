@@ -48,6 +48,9 @@
   display: flex;
   margin-bottom: 60px;
 }
+#comboA img, #mugifuji img {
+  border-radius: 20px;
+}
 #comboA>div {
   padding-left: 60px;
 }
