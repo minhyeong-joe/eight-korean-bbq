@@ -2,11 +2,43 @@
 // such as header, footer behaviors.
 $(function(){
 
+  var timeout;
+  $('.location-tab').mouseenter( function() {
+    clearTimeout(timeout);
+    $('.location-list').fadeIn(300);
+  });
+  $('.location-tab').mouseleave(function() {
+      $('.location-list').fadeOut(200);
+    });
+
+  $('.location-tab>a').on('click', function(e){
+    e.preventDefault();
+  });
+
+  $('.location-expand>a').on('click', function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("expanded")) {
+      $(this).removeClass("expanded");
+    } else {
+      $(this).addClass("expanded");
+    }
+    $('.location-menu').slideToggle(300);
+  })
+
   $('menubar').on('click', function() {
-    $('body').toggleClass("scrollDisabled");
+    if ($('body').hasClass("scrollDisabled")) {
+      $('body').removeClass("scrollDisabled");
+    } else {
+      $('body').addClass("scrollDisabled");
+    }
+    $('.location-menu').slideUp(100);
     $('#menuList').slideToggle();
     $('.menubarIcon').toggleClass("change");
     $('.menu-overlay').toggle();
+  });
+
+  $('.location-expand').on('click', function() {
+
   });
 
   $(window).on('scroll', function() {
@@ -14,15 +46,17 @@ $(function(){
       $('#header-logo').css({"height": "60px"});
       $('#menuList').css({"top": "68px"});
       $('#whitespace-header').css({"height": "70px"});
+      $('.location-list').css({"top": "30px"});
     } else {
       $('#header-logo').css({"height": "100px"});
       $('#menuList').css({"top": "108px"});
       $('#whitespace-header').css({"height":"110px"});
+      $('.location-list').css({"top": "70px"});
     }
   });
 
 });
-$('body').addClass("scrollDisabled");
+// $('body').addClass("scrollDisabled");
 $(window).on('load', function() {
   // display banner, section, footer, and logo image after all images are loaded
 
@@ -34,7 +68,9 @@ $(window).on('load', function() {
       $('#whitespace-header').css({"height": "70px"});
     } else {
       $('#header-logo').css({"opacity": 1, "height": "100px"});
+      $('#menuList').css({"top": "108px"});
       $('#whitespace-header').css({"height": "110px"});
+      $('.location-list').css({"top": "70px"});
     }
     $('body').removeClass("scrollDisabled");
   })

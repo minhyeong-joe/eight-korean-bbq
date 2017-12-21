@@ -44,6 +44,7 @@ header {
 #header-logo img {
   height: 100%;
 }
+
 navbar ul, #menuList {
   margin: 0;
   padding: 0;
@@ -55,9 +56,10 @@ navbar ul, #menuList {
 navbar a {
   text-decoration: none;
   color: #999;
-  padding: 5px 20px;
+  padding: 10px 15px;
   -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
+  z-index: 9999;
 }
 navbar a:hover {
   color: black;
@@ -68,6 +70,30 @@ navbar a.current {
   color: black;
   border-bottom: 2px solid orange;
 }
+.location-list a.current {
+  border: none !important;
+}
+.location-tab:hover>a {
+  color: black;
+}
+.location-list {
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  z-index: 9998;
+  top: 30px;
+  padding-top: 40px;
+  cursor: pointer;
+  display: none;
+  transition: top 0.75s ease-in-out;
+}
+.location-list a {
+  background-color: white;
+  display: block;
+  padding: 10px 10px 10px 30px !important;
+  text-align: right;
+}
+
 
 menubar {
   cursor: pointer;
@@ -90,7 +116,7 @@ menubar {
           flex-direction: column;
   position: absolute;
   right: 0;
-  top: 108px;
+  top: 68px;
   text-align: right;
   /* border: 1px solid black; */
   /* -webkit-box-shadow: 1px 1px 4px #999;
@@ -107,12 +133,26 @@ menubar {
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
-#menuList a:hover, #menuList a.current {
+#menuList a.current {
   background-color: #eee;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   color: black;
 }
+#menuList a.expanded {
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.location-menu {
+  list-style: none;
+  padding: 0;
+  display: none;
+}
+.location-menu a {
+  padding: 15px 40px !important;
+}
+
 .menubarIcon:first-child.change {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
@@ -179,7 +219,7 @@ footer {
   display: flex;
   background-color: #333;
   color: white;
-  padding: 50px;
+  padding: 30px 8px 0;
   justify-content: space-between;
   transition: 0.75s ease-in-out;
 }
@@ -217,9 +257,16 @@ footer a {
 }
 #footer-copyright {
   text-align: center;
+  background-color: #333;
+  color: white;
+  padding-bottom: 20px;
 }
 #LAFB-wrapper-mobile {
   display: none;
+}
+#footer-main-office {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -248,9 +295,6 @@ footer a {
   }
   #LAFB-wrapper {
     display: none;
-  }
-  footer {
-    padding: 50px 10px;
   }
   footer hr {
     display: block !important;

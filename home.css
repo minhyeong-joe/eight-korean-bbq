@@ -11,7 +11,7 @@
   background-color: transparent;
   background-attachment: fixed;
   width: 100%;
-  height: 500px;
+  height: 100vh;
   opacity: 0;
   background-image: url("img/9PorkBelly.jpg");
   display: flex;
@@ -225,14 +225,14 @@ button>a {
 }
 @media screen and (max-width: 768px) {
   #banner {
-    height: 350px;
+    /* height: 350px; */
     background-attachment: scroll;
   }
   #banner-text>h1{
-    font-size: 40px;
+    font-size: 45px;
   }
   #banner-text>p {
-    font-size: 20px;
+    font-size: 25px;
   }
   #comboA, #mugifuji {
     display: block;
@@ -267,13 +267,13 @@ button>a {
 }
 @media screen and (max-width: 480px) {
   #banner {
-    height: 250px;
+    /* height: 250px; */
   }
   #banner-text>h1 {
-    font-size: 26px;
+    font-size: 32px;
   }
   #banner-text>p {
-    font-size: 15px;
+    font-size: 18px;
   }
   #eightflavors-wrapper>div {
     margin: 10px 5%;
