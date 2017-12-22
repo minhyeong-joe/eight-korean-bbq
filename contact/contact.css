@@ -1,3 +1,109 @@
 #small-banner {
   background-image: url("../img/image.png");
 }
+#contact h1 {
+  text-align: center;
+  font-size: 40px;
+}
+hr {
+  margin: 30px 0;
+}
+#main-office {
+  text-align: center;
+}
+#main-office>* {
+  margin: 8px 0;
+}
+#main-office a {
+  color: inherit;
+}
+#store-location {
+  display: flex;
+}
+#store-location>* {
+  flex: 1;
+  text-align: center;
+  margin: 50px 20px;
+}
+.info a {
+  color:inherit;
+}
+.info {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+#store-location iframe {
+  width: 85%;
+}
+#line {
+  width: 80%;
+  border-bottom: 2px solid #000;
+  line-height: 0.01px;
+  margin: 10px auto 20px;
+}
+#line>span {
+  background: white;
+  padding: 0 10px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+#contact-form-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+#contact-form-wrapper>* {
+  flex: 1;
+}
+form {
+  padding: 30px 15px;
+}
+label {
+  display: block;
+  padding: 15px 5px;
+}
+input {
+  display: block;
+}
+textarea {
+  display: block;
+  resize: none;
+  height: 160px;
+}
+input:not(#submit), textarea {
+  width: 220px;
+  padding: 8px 12px;
+}
+#submit {
+  margin: 30px 0 10px 15px;
+  padding: 8px 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#right-column {
+  text-align: center;
+}
+#right-column>img {
+  max-width: 100%;
+  margin: 30px 0;
+}
+#right-column p {
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  #contact *{
+    flex-direction: column;
+  }
+  #line>span {
+    margin-left: 0;
+  }
+  form {
+    align-self: center;
+  }
+  #submit {
+    margin: 30px auto 10px;
+  }
+  #right-column {
+    /* order: -1; */
+  }
+}

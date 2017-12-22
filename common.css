@@ -199,6 +199,12 @@ menubar {
   background-color: rgba(255,255,255,0.2);
 }
 
+@media screen and (max-width: 768px) {
+  #small-banner {
+    height: 150px;
+  }
+}
+
 /* section */
 section {
   padding: 80px 0;
@@ -301,5 +307,9 @@ footer a {
     width: 80%;
     border: 1.2px solid white;
     margin-bottom: 10px;
+  }
+  #footer-main-office {
+    width: 280px;
+    margin: 20px auto;
   }
 }
