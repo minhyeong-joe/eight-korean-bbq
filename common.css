@@ -239,6 +239,9 @@ footer {
   width: 250px;
 }
 footer h3 {
+  color: orange;
+}
+footer h3 {
   text-align: center;
   padding-bottom: 20px;
 }
@@ -311,5 +314,45 @@ footer a {
   #footer-main-office {
     width: 280px;
     margin: 20px auto;
+  }
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato');
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2,h3,h4 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 34px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 16px !important;
   }
 }

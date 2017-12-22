@@ -1,8 +1,8 @@
 <?php
 
 if (count($_POST)>0) {
-  $first_name = ucfirst($_POST['first']);
-  $last_name = ucfirst($_POST['last']);
+  $first_name = ucwords($_POST['first']);
+  $last_name = ucwords($_POST['last']);
   $full_name = $first_name." ".$last_name;
   $email = $_POST['email'];
   $locationUSA = $_POST['locationUSA'];

@@ -1,7 +1,7 @@
 <?php
 
 if (count($_POST)>0) {
-  $name = ucfirst($_POST['name']);
+  $name = ucwords($_POST['name']);
   $email = $_POST['email'];
   $message = nl2br(htmlspecialchars($_POST['message']));
 
@@ -17,7 +17,7 @@ if (count($_POST)>0) {
   $MESSAGE_BODY .= "<tr style='background: #eee;'><td style='width:120px; text-align:center;'><strong>Name:</strong></td><td>$name</td></tr>";
   $MESSAGE_BODY .= "<tr><td style='text-align:center;'><strong>Email:</strong></td><td><a href='mailto:$email'>$email</a></td></tr>";
   $MESSAGE_BODY .= "<tr><td style='text-align:center;'><strong>Message:</strong></td><td>$message</td></tr></table><br><br>";
-  $MESSAGE_BODY .= "<img src='../img/full-logo.png' alt='plumeria.png' height='120px' style='margin-left: 200px;'><br></body></html>";
+  $MESSAGE_BODY .= "<img src='https://eightkoreanbbq.com/img/full-logo.png' alt='8-logo' height='120px' style='margin-left: 200px;'><br></body></html>";
 
   mail($ToEmail,  $EmailSubject, $MESSAGE_BODY, $mailheader, "-f$email");
 }
