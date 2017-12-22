@@ -73,12 +73,51 @@ textarea {
 input:not(#submit), textarea {
   width: 220px;
   padding: 8px 12px;
+  border: 1px solid #bbb;
+  outline: none;
 }
 #submit {
   margin: 30px 0 10px 15px;
   padding: 8px 25px;
   font-size: 20px;
   font-weight: bold;
+  color: #444;
+  background: white;
+  border: 2px solid #444;
+  cursor: pointer;
+  outline: none;
+  transition: 0.25s;
+}
+#submit:hover {
+  color: white;
+  background: #444;
+  transition: 0.25s;
+}
+.notValid {
+  border: 1px solid red !important;
+}
+#invalidEmailWrapper {
+  display: none;
+}
+#invalidEmailWrapper>p {
+  color: red;
+}
+#result.success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  margin: 10px 0px;
+  padding:12px;
+  border-radius: 10px;
+}
+#result.error {
+  margin: 10px 0px;
+  padding:12px;
+  color: #D8000C;
+  background-color: #FFD2D2;
+  border-radius: 10px;
+}
+#honeypot {
+  display: none;
 }
 #right-column {
   text-align: center;

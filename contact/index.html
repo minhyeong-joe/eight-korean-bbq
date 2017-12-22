@@ -114,13 +114,19 @@
             </div>
             <div class="fieldset">
               <label for="email">Email Address <font color="red">*</font></label>
+              <div id="invalidEmailWrapper">
+                <p>* Invalid Email Address</p>
+              </div>
               <input type="text" id="email" name="email">
             </div>
             <div class="fieldset">
               <label for="message">Message <font color="red">*</font></label>
               <textarea name="message" id="message"></textarea>
             </div>
+            <input type="text" name="honeypot" id="honeypot" hidden>
+            <p id="required" style="font-size: 14px; color: red; display: none;">* Please complete the required field.</p>
             <input type="submit" id="submit" value="SUBMIT">
+            <p id="result"></p>
           </form>
           <div id="right-column">
             <img src="../img/image.png" alt="">
