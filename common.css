@@ -318,7 +318,7 @@ footer a {
 }
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato|Satisfy|Cabin');
 header {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -335,8 +335,12 @@ h2 {
 p,a,li, label  {
   font-family: 'Lato', sans-serif;
 }
-form input[type=text], form select, form textarea {
+input[type=text], select, textarea {
   font-size: 20px !important;
+  font-family: 'Cabin', sans-serif;
+}
+select {
+  background-color: white;
 }
 #press>h2 {
   font-family: 'Satisfy', cursive;
