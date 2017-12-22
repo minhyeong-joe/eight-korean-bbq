@@ -54,6 +54,9 @@ input:not(#submit), select, textarea {
   width: 100%;
   font-size: 18px;
 }
+input:not(#submit):focus, select:focus, textarea:focus {
+  border: 1px solid black !important;
+}
 #first {
   width: 45% !important;
 }
@@ -68,18 +71,19 @@ textarea {
 #submit {
   margin-top: 30px;
   padding: 8px 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  color: #444;
-  background: white;
-  border: 2px solid #444;
+  color: orange;
+  background: transparent;
+  border: 2px solid orange;
   cursor: pointer;
   outline: none;
   transition: 0.25s;
+  border-radius: 15px;
 }
 #submit:hover {
   color: white;
-  background: #444;
+  background: orange;
   transition: 0.25s;
 }
 .notValid {

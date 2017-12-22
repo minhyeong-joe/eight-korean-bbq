@@ -318,7 +318,7 @@ footer a {
 }
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato|Satisfy');
 header {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -327,19 +327,27 @@ h1,h2,h3,h4 {
 }
 h1 {
   font-size: 40px;
+  color: #333;
 }
 h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
-p {
+p,a,li, label  {
   font-family: 'Lato', sans-serif;
+}
+form input[type=text], form select, form textarea {
+  font-size: 20px !important;
+}
+#press>h2 {
+  font-family: 'Satisfy', cursive;
+  font-weight: lighter;
 }
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 34px !important;
   }
   h2 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   p {
     font-size: 18px !important;
@@ -350,7 +358,7 @@ p {
     font-size: 28px !important;
   }
   h2 {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
   p {
     font-size: 16px !important;

@@ -5,6 +5,9 @@
   text-align: center;
   font-size: 40px;
 }
+h2 {
+  margin-bottom: 20px !important;
+}
 hr {
   margin: 30px 0;
 }
@@ -76,10 +79,13 @@ input:not(#submit), textarea {
   border: 1px solid #bbb;
   outline: none;
 }
+input:not(#submit):focus, textarea:focus {
+  border: 1px solid black !important;
+}
 #submit {
   margin: 30px 0 10px 15px;
   padding: 8px 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #444;
   background: white;

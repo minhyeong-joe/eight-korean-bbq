@@ -1,6 +1,14 @@
 #small-banner {
   background-image: url("../img/image.png");
 }
+#background-black {
+  width: 100%;
+  padding: 50px 0;
+  background: black;
+}
+#menu * {
+  color: white;
+}
 #menu h1 {
   font-size: 40px;
   text-align: center;
@@ -16,12 +24,12 @@
 }
 #menu-location a {
   text-decoration: none;
-  color: #ccc;
+  color: #777;
   transition: 0.25s;
 }
 #menu-location a.active {
   pointer-events: none;
-  color: #333;
+  color: white;
   transition: 0.5s;
 }
 #los-angeles-menu, #buena-park-menu {
