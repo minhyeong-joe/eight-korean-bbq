@@ -43,7 +43,7 @@ hr {
 #image-wrapper img {
   height: 300px;
   width: 300px;
-  object-fit: contain;
+  object-fit: cover;
 }
 button {
   margin-top: 60px;
