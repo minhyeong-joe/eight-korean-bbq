@@ -34,6 +34,7 @@
   transition: 1.25s ease-in-out;
 }
 #banner-text>img {
+  width: 500px;
   max-width: 100%;
 }
 
