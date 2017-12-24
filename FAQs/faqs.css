@@ -12,6 +12,20 @@
   font-size: 25px;
   color: #aaa;
 }
+#parking-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  background: rgba(0,0,0,1);
+  display: none;
+  text-align: center;
+  align-items: center;
+}
+#parking-overlay>img {
+  height: 100%;
+  max-width: 100%;
+}
 .accordion-wrapper {
   margin: 50px 0;
   border: 1px solid black;
@@ -33,6 +47,7 @@
   justify-content: space-between;
   text-decoration: none;
   text-align: left;
+  font-weight: bolder;
 }
 .accordion-title.active {
   border-bottom: none;

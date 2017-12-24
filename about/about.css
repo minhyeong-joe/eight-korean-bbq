@@ -27,17 +27,20 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../img/full-table-set.jpg"); */
-  /* background-position: 50% 35%;
+  background-image: linear-gradient(rgba(255,255,255, 1) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255, 1) 100%), url("../img/buena-park-7.jpg");
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll; */
   background-color: #333;
+  background-attachment: scroll;
+  /* filter: grayscale(1); */
   width: 100%;
-  height: 450px;
+  height: 600px;
 }
 #video-wrapper>video {
-  width: 500px;
+  background-color: black;
+  padding: 15px;
+  width: 530px;
   height: auto;
 }
 
@@ -87,7 +90,7 @@ hr {
     max-width: 100%;
   }
   #video-wrapper>video {
-    max-width: 100%;
+    max-width: 90%;
   }
   #history-content {
     max-width: 100%;
@@ -117,6 +120,6 @@ hr {
 }
 @media screen and (max-width: 480px) {
   #video-wrapper {
-    height: 350px;
+    height: 400px;
   }
 }
