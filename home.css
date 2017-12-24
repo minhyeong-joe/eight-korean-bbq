@@ -41,6 +41,7 @@
 /* home section */
   /* comboA eight flavors */
 #comboA, #mugifuji {
+  padding-top: 50px;
   display: flex;
   margin-bottom: 60px;
 }

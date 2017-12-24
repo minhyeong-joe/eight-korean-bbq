@@ -2,6 +2,7 @@
   background-image: url("../img/image.png");
 }
 #franchise {
+  padding-top: 80px;
   text-align: center;
 }
 #franchise>img {
