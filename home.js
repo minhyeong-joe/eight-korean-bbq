@@ -9,6 +9,13 @@ $(function() {
     }, 500);
   });
 
+  // scroll-down-animation Click
+  $('#scroll-down-animation').on('click', function() {
+    $('html,body').animate({
+      scrollTop: $('#banner').offset().top + $('#banner').height() - 70
+    }, 500);
+  })
+
   // 8 flavors details
   var sliding = false;
 

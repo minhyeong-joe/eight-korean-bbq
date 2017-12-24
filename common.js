@@ -72,7 +72,6 @@ $(window).on('load', function() {
       $('#whitespace-header').css({"height": "110px"});
       $('.location-list').css({"top": "70px"});
     }
-    $('body').removeClass("scrollDisabled");
   })
   $('footer').css({"opacity": 1});
   // for home page banner
@@ -80,6 +79,8 @@ $(window).on('load', function() {
     opacity: 1
   }, 800, function() {
     $('#banner-text').css({"opacity":1});
+    $('#scroll-down-animation').delay(500);
+    $('#scroll-down-animation').css({"opacity":1});
   });
   // for all other banners
   $('#small-banner').animate({
