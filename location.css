@@ -1,5 +1,6 @@
 #small-banner {
-  background-image: url("img/image.png");
+  background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(255,255,255, 1) 100%),url("img/location-banner.jpg");
+  background-position: 50% 20%;
 }
 hr {
   margin: 40px 0;

@@ -1,5 +1,6 @@
 #small-banner {
-  background-image: url("../img/image.png");
+  background-image:  -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0, 0)),to(rgba(0,0,0, 1))), url("../img/franchising-banner.jpg");
+  background-image:  linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url("../img/franchising-banner.jpg");
 }
 #background-black {
   width: 100%;
@@ -14,8 +15,12 @@
   text-align: center;
 }
 #menu-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 30px 0;
   font-size: 20px;
 }
@@ -25,11 +30,13 @@
 #menu-location a {
   text-decoration: none;
   color: #777;
+  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 #menu-location a.active {
   pointer-events: none;
   color: white;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 #los-angeles-menu, #buena-park-menu {
