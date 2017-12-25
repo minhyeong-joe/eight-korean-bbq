@@ -16,6 +16,14 @@ $(function() {
     }, 500);
   })
 
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() >= $('#banner-text').offset().top-70) {
+      $('#scroll-down-animation').css({"opacity": 0, "pointer-events": "none"});
+    } else {
+      $('#scroll-down-animation').css({"opacity": 1, "pointer-events": "auto"});
+    }
+  });
+
   // 8 flavors details
   var sliding = false;
 
