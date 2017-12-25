@@ -55,18 +55,15 @@ section {
 .menu-section {
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
+  flex-flow: row wrap;
+  position: relative;
 }
 .menu-box {
-  flex: 1;
+  flex-basis: 24%;
   background-color: #3b3a3a;
-  margin: 5px
-}
-.menu-box.invisible {
-  background-color: rgba(0,0,0,0);
+  margin: 20px 0.5%;
 }
 .menu-box img {
-  max-height: 100%;
   max-width: 100%;
   object-fit: cover;
 }
@@ -82,15 +79,22 @@ section {
   padding: 5px 8px 8px 25px;
   line-height: 24px;
 }
+.other {
+  width: 400px;
+  max-width: 90%;
+  margin: 20px auto;
+}
+.other * {
+  color: #ccc !important;
+}
+.other ul {
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+}
 @media screen and (max-width: 768px) {
-  .menu-section {
-    flex-direction: column;
-  }
   .menu-box {
-    width: 80%;
-    margin: 15px auto;
-  }
-  .menu-box.invisible {
-    display: none;
+    flex-basis: 48%;
+    margin: 20px 1%;
   }
 }

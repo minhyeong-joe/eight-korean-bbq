@@ -6,9 +6,8 @@ $(function() {
     e.preventDefault();
     var menuLoc = $(this).attr("href");
     $('#menu-location>a').toggleClass("active");
-    $('.menu-wrapper').fadeOut(250, function() {
-      $('#'+menuLoc).delay(300);
-      $('#'+menuLoc).fadeIn(500);
+    $('.menu-wrapper').fadeOut(300, function() {
+      $('#'+menuLoc).fadeIn(750);
     })
 
   });
