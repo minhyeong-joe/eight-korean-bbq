@@ -14,15 +14,20 @@
   margin: 30px 0;
 }
 
-.press-row {
+.press-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  position: relative;
 }
-.press-row img {
-  width: 150px;
-  margin: 20px 10px;
+.press-logo {
+  flex-basis: 25%;
+  margin: 10px 0;
+}
+.press-logo img {
+  max-width: 90%;
+  margin: 0 5%;
 }
 
 #video-confirm-modal-overlay {
@@ -106,7 +111,12 @@
 }
 
 @media screen and (max-width: 480px) {
-  .press-row img {
-    margin: 30px 3px;
+  .press-logo {
+    flex-basis: 50%;
+    margin: 20px 0;
+  }
+  .press-logo img {
+    max-width: 86%;
+    margin: 0 7%;
   }
 }

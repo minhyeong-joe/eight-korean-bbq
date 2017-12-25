@@ -282,7 +282,7 @@ button>a {
   background-color: #eee;
 }
 #press {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 #press>h1 {
   text-align: center;
@@ -290,15 +290,21 @@ button>a {
 #press>hr {
   margin: 30px 0;
 }
-.press-row {
+.press-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  position: relative;
 }
-.press-row img {
-  width: 150px;
-  margin: 20px 10px;
+.press-logo {
+  flex-basis: 25%;
+  margin: 20px 0;
+  text-align: center;
+}
+.press-logo img {
+  max-width: 90%;
+  margin: 0 5%;
 }
 
 @media screen and (max-width: 860px) {
@@ -361,7 +367,11 @@ button>a {
   #eightflavors-wrapper>div {
     margin: 10px 5%;
   }
-  .press-row img {
-    margin: 20px 3px;
+  .press-logo {
+    flex-basis: 50%;
+  }
+  .press-logo img {
+    max-width: 86%;
+    margin: 0 7%;
   }
 }
