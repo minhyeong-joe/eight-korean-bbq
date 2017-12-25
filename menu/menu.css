@@ -1,9 +1,8 @@
 #small-banner {
-  background-image:  -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0, 0)),to(rgba(0,0,0, 1))), url("../img/franchising-banner.jpg");
   background-image:  linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url("../img/franchising-banner.jpg");
 }
-#background-black {
-  width: 100%;
+section {
+  width: 100% !important;
   background: black;
 }
 #menu * {
@@ -41,4 +40,57 @@
 #los-angeles-menu, #buena-park-menu {
   text-align: center;
   display: none;
+}
+.menu-wrapper h1 {
+  width: 80%;
+  color: black !important;
+  text-align: center;
+  background: linear-gradient(to right,
+    rgba(0,0,0,1) 0%,
+    rgba(255,255,255,1) 20%,
+    rgba(0,0,0,1) 100%
+    );
+  margin: 30px auto;
+}
+.menu-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.menu-box {
+  flex: 1;
+  background-color: #3b3a3a;
+  margin: 5px
+}
+.menu-box.invisible {
+  background-color: rgba(0,0,0,0);
+}
+.menu-box img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.menu-box p {
+  padding: 10px 0;
+  font-size: 20px !important;
+}
+.menu-box li {
+  color: #eee !important;
+  text-align: left;
+}
+.menu-box ul {
+  padding: 5px 8px 8px 25px;
+  line-height: 24px;
+}
+@media screen and (max-width: 768px) {
+  .menu-section {
+    flex-direction: column;
+  }
+  .menu-box {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .menu-box.invisible {
+    display: none;
+  }
 }

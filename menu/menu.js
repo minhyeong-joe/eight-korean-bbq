@@ -5,7 +5,6 @@ $(function() {
   $('#menu-location>a').on('click', function(e){
     e.preventDefault();
     var menuLoc = $(this).attr("href");
-    console.log(menuLoc);
     $('#menu-location>a').toggleClass("active");
     $('.menu-wrapper').fadeOut(250, function() {
       $('#'+menuLoc).delay(300);
