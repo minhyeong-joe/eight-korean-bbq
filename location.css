@@ -24,6 +24,7 @@ hr {
   text-align: center;
   background: #ccc;
   margin-bottom: 30px;
+  opacity: 0;
 }
 #follow-us>h2 {
   font-size: 30px;

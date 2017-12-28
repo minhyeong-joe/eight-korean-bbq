@@ -322,12 +322,11 @@ footer a {
 }
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Poppins|Lato|Satisfy|Cabin');
 header {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 h1,h2,h3,h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 h1 {
   font-size: 40px;
@@ -337,7 +336,7 @@ h2 {
   font-size: 28px;
 }
 p,a,li, label  {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 input[type=text], select, textarea {
   font-size: 20px !important;

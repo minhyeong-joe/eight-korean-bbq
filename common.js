@@ -28,7 +28,12 @@ $(function(){
   $('menubar').on('click', function() {
     if ($('body').hasClass("scrollDisabled")) {
       $('body').removeClass("scrollDisabled");
-      $('header').css({"background-color": "rgba(255,255,255,0.8)"});
+      if ($(window).scrollTop() >= 20) {
+        $('header').css({"background-color": "rgba(255,255,255,1)"});
+      } else {
+        $('header').css({"background-color": "rgba(255,255,255,0.8)"});
+      }
+
     } else {
       $('body').addClass("scrollDisabled");
       $('header').css({"background-color": "rgba(255,255,255,1)"});
@@ -95,5 +100,9 @@ $(window).on('load', function() {
   // for all other banners
   $('#small-banner').animate({
     opacity: 1
-  }, 1000);
+  }, 700);
+  // follow-us
+  $('#follow-us').animate({
+    opacity: 1
+  }, 700);
 })

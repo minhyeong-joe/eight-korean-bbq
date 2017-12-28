@@ -12,20 +12,7 @@
   font-size: 25px;
   color: #aaa;
 }
-#parking-overlay {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: 99999;
-  background: rgba(0,0,0,1);
-  display: none;
-  text-align: center;
-  align-items: center;
-}
-#parking-overlay>img {
-  height: 100%;
-  max-width: 100%;
-}
+
 .accordion-wrapper {
   margin: 50px 0;
   border: 1px solid black;
@@ -41,7 +28,7 @@
   color: #333;
 }
 .accordion-title {
-  color: orange;
+  color: #f55733;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;

@@ -12,7 +12,7 @@ $(function() {
   // scroll-down-animation Click
   $('#scroll-down-animation').on('click', function() {
     $('html,body').animate({
-      scrollTop: $('#banner').offset().top + $('#banner').height() - 70
+      scrollTop: $('#banner').offset().top + $('#banner').height() - 44
     }, 500);
   })
 
