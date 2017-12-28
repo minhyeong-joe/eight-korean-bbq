@@ -28,7 +28,7 @@ $(function(){
   $('menubar').on('click', function() {
     if ($('body').hasClass("scrollDisabled")) {
       $('body').removeClass("scrollDisabled");
-      $('header').css({"background-color": "rgba(255,255,255,0.6)"});
+      $('header').css({"background-color": "rgba(255,255,255,0.8)"});
     } else {
       $('body').addClass("scrollDisabled");
       $('header').css({"background-color": "rgba(255,255,255,1)"});
@@ -52,7 +52,7 @@ $(function(){
       $('.location-list').css({"top": "4px"});
       $('.location-list a').addClass("white-background");
     } else {
-      $('header').css({"background-color": "rgba(255,255,255,0.6)", "box-shadow": "none"});
+      $('header').css({"background-color": "rgba(255,255,255,0.8)", "box-shadow": "none"});
       $('#header-logo').css({"height": "80px"});
       $('#menuList').css({"top": "84px"});
       $('#whitespace-header').css({"height":"84px"});
@@ -75,7 +75,7 @@ $(window).on('load', function() {
       $('#whitespace-header').css({"height": "44px"});
       $('.location-list a').addClass("white-background");
     } else {
-      $('header').css({"background-color": "rgba(255,255,255,0.6)", "box-shadow": "none"});
+      $('header').css({"background-color": "rgba(255,255,255,0.8)", "box-shadow": "none"});
       $('#header-logo').css({"opacity": 1, "height": "80px"});
       $('#menuList').css({"top": "84px"});
       $('#whitespace-header').css({"height": "84px"});
