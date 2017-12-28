@@ -20,7 +20,7 @@
 #banner-overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0,0.25);
+  background-color: rgba(0,0,0,0.1);
   /* padding: 20px; */
   color: white;
   text-shadow: 0 0 6px black;
@@ -45,8 +45,8 @@
 }
 #scroll-down-animation {
   position: relative;
-  height: 40px;
-  width: 20px;
+  height: 50px;
+  width: 25px;
   border: 2px solid #444;
   border-radius: 8px;
   margin-bottom: 50px;
@@ -56,8 +56,8 @@
 }
 #scroll-down-animation:before {
   content:'';
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: #444;
   border-radius: 8px;
   border: 1px solid #444;
@@ -112,6 +112,10 @@
 #eightflavors {
   text-align: center;
 }
+#eightflavors img {
+  max-width: 100%;
+  height: auto;
+}
 #eightflavors>div {
   padding-right: 60px;
 }
@@ -120,7 +124,7 @@
   padding: 40px 0;
 }
 #eightflavors>div>p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   margin: 8px 0;
 }
@@ -256,6 +260,29 @@ button>a {
   max-width: 90%;
   margin: 0 5%;
 }
+#franchise-banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("img/franchising-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#franchise-text {
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+#franchise-text p {
+  font-size: 50px !important;
+}
 
 @media screen and (max-width: 768px) {
   #banner {
@@ -298,6 +325,13 @@ button>a {
     height: auto;
     align-self: center;
   }
+  #franchise-banner {
+    background-attachment: scroll;
+    height: 150px;
+  }
+  #franchise-text p {
+    font-size: 40px !important;
+  }
 }
 @media screen and (max-width: 480px) {
   #banner {
@@ -318,5 +352,8 @@ button>a {
   .press-logo img {
     max-width: 86%;
     margin: 0 7%;
+  }
+  #franchise-text p {
+    font-size: 30px !important;
   }
 }
