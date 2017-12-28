@@ -45,17 +45,17 @@ $(function(){
 
   $(window).on('scroll', function() {
     if ($(window).scrollTop() >= 20) {
-      $('header').css({"background-color": "white"});
+      $('header').css({"background-color": "white", "box-shadow": " 0px 1px 2px #999"});
       $('#header-logo').css({"height": "40px"});
       $('#menuList').css({"top": "44px"});
-      $('#whitespace-header').css({"height": "50px"});
+      $('#whitespace-header').css({"height": "44px"});
       $('.location-list').css({"top": "4px"});
       $('.location-list a').addClass("white-background");
     } else {
-      $('header').css({"background-color": "rgba(255,255,255,0.6)"});
+      $('header').css({"background-color": "rgba(255,255,255,0.6)", "box-shadow": "none"});
       $('#header-logo').css({"height": "80px"});
       $('#menuList').css({"top": "84px"});
-      $('#whitespace-header').css({"height":"90px"});
+      $('#whitespace-header').css({"height":"84px"});
       $('.location-list').css({"top": "44px"});
       $('.location-list a').removeClass("white-background");
     }
@@ -70,15 +70,15 @@ $(window).on('load', function() {
     opacity: 1
   }, 700, function() {
     if ($(window).scrollTop() >= 20) {
-      $('header').css({"background-color": "white"});
+      $('header').css({"background-color": "white", "box-shadow": " 0px 1px 2px #999"});
       $('#header-logo').css({"opacity": 1, "height": "40px"});
-      $('#whitespace-header').css({"height": "50px"});
+      $('#whitespace-header').css({"height": "44px"});
       $('.location-list a').addClass("white-background");
     } else {
-      $('header').css({"background-color": "rgba(255,255,255,0.6)"});
+      $('header').css({"background-color": "rgba(255,255,255,0.6)", "box-shadow": "none"});
       $('#header-logo').css({"opacity": 1, "height": "80px"});
       $('#menuList').css({"top": "84px"});
-      $('#whitespace-header').css({"height": "90px"});
+      $('#whitespace-header').css({"height": "84px"});
       $('.location-list').css({"top": "44px"});
       $('.location-list a').removeClass("white-background");
     }

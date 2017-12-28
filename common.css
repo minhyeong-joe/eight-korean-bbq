@@ -193,7 +193,7 @@ menubar {
   }
 }
 #whitespace-header {
-  height: 90px;
+  height: 84px;
   transition: 0.25s ease-in-out;
 }
 
@@ -245,17 +245,16 @@ footer {
 #footer-location {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex: 1;
 }
-#footer-LA, #footer-BP {
-  width: 250px;
+#footer-LA, #footer-BP, #footer-main-office {
+  max-width: 250px;
 }
 footer h3 {
   color: orange;
 }
 footer h3 {
-  text-align: center;
   padding-bottom: 20px;
 }
 footer a {
@@ -267,15 +266,32 @@ footer a {
 }
 .footer-hours>h4 {
   padding-bottom: 10px;
-  text-align: center;
 }
-#footer-FB {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
+.footer-social-media {
+  text-align: left;
+  margin-bottom: 20px;
 }
-#LAFB-wrapper, #BPFB-wrapper {
-  margin: 0 10px;
+.footer-social-media i {
+  font-size: 26px;
+}
+.footer-social-media a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+  margin: 0 5px;
+}
+.footer-social-media a:hover {
+  opacity: 1;
+}
+.footer-social-media a:first-child {
+  background-color: #e1306c;
+}
+.footer-social-media a:nth-child(2) {
+  background-color: #3B5998;
+}
+.footer-social-media a:nth-child(3) {
+  background-color: #d32323;
 }
 #footer-copyright {
   text-align: center;
@@ -283,40 +299,16 @@ footer a {
   color: white;
   padding-bottom: 20px;
 }
-#LAFB-wrapper-mobile {
-  display: none;
-}
-#footer-main-office {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-@media screen and (max-width: 1200px) {
-  #footer-FB {
-    flex-direction: column;
-  }
-}
 @media screen and (max-width: 1024px) {
   footer {
     flex-direction: column;
-  }
-  #footer-FB {
-    flex-direction: row;
   }
 }
 @media screen and (max-width: 768px) {
   #footer-location {
     flex-direction: column;
-  }
-  #footer-FB {
-    flex-direction: column;
-    text-align: center;
-  }
-  #LAFB-wrapper-mobile {
-    display: block;
-  }
-  #LAFB-wrapper {
-    display: none;
+    align-items: center;
   }
   footer hr {
     display: block !important;
@@ -325,8 +317,7 @@ footer a {
     margin-bottom: 10px;
   }
   #footer-main-office {
-    width: 280px;
-    margin: 20px auto;
+    margin-bottom: 20px;
   }
 }
 

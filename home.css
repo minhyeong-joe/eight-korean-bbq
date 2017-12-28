@@ -20,7 +20,7 @@
 #banner-overlay {
   height: 100%;
   width: 100%;
-  /* background-color: rgba(0,0,0,0.25); */
+  background-color: rgba(0,0,0,0.25);
   /* padding: 20px; */
   color: white;
   text-shadow: 0 0 6px black;
@@ -43,11 +43,6 @@
   font-size: 70px;
   color: white !important;
 }
-/* #banner-text>img {
-  width: 500px;
-  max-width: 100%;
-  filter: brightness(0.8) contrast(1.2);
-} */
 #scroll-down-animation {
   position: relative;
   height: 40px;
@@ -84,82 +79,22 @@
 }
 
 /* home section */
-  /* comboA eight flavors */
-#comboA, #mugifuji {
+#about-us {
   padding-top: 50px;
   display: flex;
   margin-bottom: 60px;
 }
-#comboA img, #mugifuji img {
+#about-us img, #eightflavors img {
   border-radius: 20px;
 }
-#comboA>div {
+#about-us>div {
   padding-left: 60px;
 }
-#comboA>div>h2 {
+#about-us>div>h2 {
   text-align: center;
   padding: 40px 0;
 }
-#comboA>div>p {
-  font-size: 20px;
-}
-#p-details {
-  text-align: center;
-}
-#eightflavors-wrapper {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#eightflavors-wrapper>div {
-  margin: 10px 0;
-}
-.flavor-name {
-  text-align: center;
-  opacity: 0.5;
-  transform: scale(0.8);
-  transition: 0.5s ease-in-out;
-}
-.flavorBtn{
-  margin: 0 10px;
-  display: inline-block;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: 0.5s ease-in-out;
-}
-.flavorBtn:hover {
-  transform: scale(1.2);
-  opacity: 1;
-  transition: 0.5s ease-in-out;
-}
-.flavorBtn:hover + .flavor-name {
-  opacity: 1;
-  transform: scale(1);
-  transition: 0.5s ease-in-out;
-}
-.flavorBtn.active {
-  transform: scale(1.2);
-  opacity: 1;
-}
-.flavorBtn.active + .flavor-name {
-  opacity: 1;
-  transform: scale(1);
-  transition: 0.5s ease-in-out;
-}
-#eightflavors-description>div {
-  display: none;
-  padding-top: 50px;
-}
-#eightflavors-description>div>img {
-  margin: 0 50px;
-}
-#eightflavors-description h3 {
-  padding: 10px 0;
-  text-align: center;
-}
-#eightflavors-description p {
+#about-us>div>p {
   font-size: 20px;
 }
   /* scroll image */
@@ -173,23 +108,28 @@
   background-attachment: fixed;
 }
 
-  /* mugifuji */
-#mugifuji>div {
+  /* eightflavors */
+#eightflavors {
+  text-align: center;
+}
+#eightflavors>div {
   padding-right: 60px;
 }
-#mugifuji>div>h2 {
+#eightflavors>div>h2 {
   text-align: center;
   padding: 40px 0;
 }
-#mugifuji>div>p {
+#eightflavors>div>p {
   font-size: 20px;
+  text-align: left;
+  margin: 8px 0;
 }
 button {
   display: block;
-  margin: auto;
+  margin: 30px auto 0;
   background-color: rgba(255,255,255,0);
-  border: 2px solid orange;
-  color: orange;
+  border: 2px solid #f55733;
+  color: #f55733;
   padding: 0;
   transition: 0.25s linear;
   font-weight: bold;
@@ -197,7 +137,7 @@ button {
 }
 button:hover {
   color: white;
-  background: orange;
+  background: #f55733;
   transition: 0.25s linear;
 }
 button>a {
@@ -317,11 +257,6 @@ button>a {
   margin: 0 5%;
 }
 
-@media screen and (max-width: 860px) {
-  #eightflavors-wrapper {
-    flex-wrap: wrap;
-  }
-}
 @media screen and (max-width: 768px) {
   #banner {
     /* height: 350px; */
@@ -333,17 +268,17 @@ button>a {
   #banner-text>p {
     font-size: 25px;
   }
-  #comboA, #mugifuji {
+  #about-us, #eightflavors {
     display: block;
     text-align: center;
   }
-  #comboA>img, #mugifuji>img {
+  #about-us>img, #eightflavors>div>img {
     margin: auto;
     max-width: 100%;
     height: auto;
     max-height: 380px;
   }
-  #comboA>div, #mugifuji>div {
+  #about-us>div, #eightflavors>div {
     padding: 0;
     text-align: left;
   }
@@ -352,7 +287,7 @@ button>a {
     /* background-position: 25% center; */
     height: 300px;
   }
-  #mugifuji p {
+  #eightflavors p {
     margin-bottom: 50px;
   }
   #eightflavors-description>div {

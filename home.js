@@ -24,41 +24,6 @@ $(function() {
     }
   });
 
-  // 8 flavors details
-  var sliding = false;
-
-  $('.flavorBtn').on('click', function() {
-    var details = this.id + "-details";
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-      sliding = true;
-      $('#'+details).slideUp(150, function() {
-        sliding = false;
-      });
-    } else if (!$('.flavorBtn').hasClass("active") && !sliding) {
-      $(this).addClass("active");
-      sliding = true;
-      $('#'+details).css({"display":"flex"}).hide().slideDown(300, function() {
-          sliding = false;
-        });
-        $('html,body').animate({
-          scrollTop: $('#eightflavors-description').offset().top - 200
-        }, 300);
-    } else if (!sliding) {
-      $('.flavorBtn.active').removeClass("active");
-      $(this).addClass("active");
-      sliding = true;
-      $('#eightflavors-description>div:not(#'+details+')').slideUp(150, function() {
-        $('#'+details).css({"display":"flex"}).hide().slideDown(300, function() {
-          sliding = false;
-        })
-      });
-      $('html,body').animate({
-        scrollTop: $('#eightflavors-description').offset().top - 200
-      }, 100);
-    }
-  });
-
   // press videos (food-network, cooking channel)
   $('.video-press').on('click', function(e) {
     e.preventDefault();

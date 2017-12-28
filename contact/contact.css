@@ -13,6 +13,8 @@ hr {
 }
 #main-office {
   text-align: center;
+  width: 400px;
+  margin: auto;
 }
 #main-office>* {
   margin: 8px 0;
@@ -34,6 +36,9 @@ hr {
 .info {
   line-height: 30px;
   margin-bottom: 20px;
+}
+#main-office>p, .info>p {
+  text-align: left;
 }
 #store-location iframe {
   width: 85%;
@@ -136,6 +141,16 @@ input:not(#submit):focus, textarea:focus {
   text-align: left;
 }
 @media screen and (max-width: 768px) {
+  .info {
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+  }
+  #main-office {
+    width: 350px;
+    max-width: 90%;
+    margin: auto;
+  }
   #contact *{
     flex-direction: column;
   }

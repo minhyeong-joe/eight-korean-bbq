@@ -1,7 +1,7 @@
-#small-banner {
+/* #small-banner {
   background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(255,255,255, 1) 100%),url("img/location-banner.jpg");
   background-position: 50% 20%;
-}
+} */
 hr {
   margin: 40px 0;
 }
@@ -22,24 +22,43 @@ hr {
 #follow-us {
   padding: 30px 0;
   text-align: center;
+  background: #ccc;
+  margin-bottom: 30px;
 }
 #follow-us>h2 {
   font-size: 30px;
   margin-bottom: 10px;
+  color: #f55733;
+  text-shadow: 1px 1px 2px #555;
 }
 #follow-us>p {
-  color: #888;
-}
-#follow-us a {
-  color: inherit;
+  color: #555;
 }
 #follow-us i {
-  margin: 30px 15px;
-  font-size: 30px;
-  opacity: 0.6;
+  font-size: 26px;
+  color: white;
 }
-#follow-us i:hover {
+#follow-us a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+  margin: 10px 5px;
+}
+#follow-us a:hover {
   opacity: 1;
+}
+#follow-us a:first-of-type {
+  background-color: #e1306c;
+}
+#follow-us a:nth-of-type(2) {
+  background-color: #3B5998;
+}
+#follow-us a:nth-of-type(3) {
+  background-color: #d32323;
+}
+#image-wrapper {
+  text-align: center;
 }
 #image-wrapper img {
   height: 300px;
@@ -47,26 +66,27 @@ hr {
   object-fit: cover;
 }
 button {
-  margin-top: 60px;
   outline: none;
   background: none;
-  border: 2px solid orange;
-  color: orange;
+  border: 2px solid #f55733;
   font-weight: bold;
   font-size: 20px;
   transition: 0.25s linear;
+  margin: 60px auto;
 }
 button>a {
+  color: #f55733;
   display: block;
   text-decoration: none;
   padding: 10px 30px;
+  transition: 0.25s linear;
 }
 button:hover {
-  background: orange;
+  background: #f55733;
   color: white;
   transition: 0.25s linear;
 }
-
-@media screen and (max-width: 768px) {
-
+button:hover a {
+  color: white;
+  transition: 0.25s linear;
 }
