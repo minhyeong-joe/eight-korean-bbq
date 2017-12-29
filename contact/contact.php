@@ -6,7 +6,7 @@ if (count($_POST)>0) {
   $message = nl2br(htmlspecialchars($_POST['message']));
 
 
-  $ToEmail = "minhyeong.billy.joe@gmail.com";
+  $ToEmail = "keith@8colorsfnb.com";
   $EmailSubject = "Eight Korean BBQ Contact Form Submission";
   $mailheader = "From: $name <no-reply@8colorsfnb.com> \r\n";
   $mailheader .= "Reply-To: $email \r\n";
