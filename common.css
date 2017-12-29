@@ -7,9 +7,7 @@ such as font, header, footer, uniform section layout, etc */
   user-select: none;
 }
 .scrollDisabled {
-  position: relative;
   overflow-y: hidden;
-  height: 100%;
 }
 .menu-overlay {
   position: fixed;
