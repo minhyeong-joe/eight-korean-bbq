@@ -293,9 +293,11 @@ button>a {
   }
   #banner-text h1{
     font-size: 50px !important;
+    margin-left: 20px;
   }
   #banner-text p {
     font-size: 36px !important;
+    margin-left: 20px;
   }
   #about-us, #eightflavors {
     display: block;
