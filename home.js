@@ -29,7 +29,7 @@ $(function() {
     e.preventDefault();
     var self = this;
     $('#video-confirm-modal-overlay').css({"display":"flex"}).hide().fadeIn(300);
-    $('body').addClass('scrollDisabled');
+    $('html, body').addClass('scrollDisabled');
     $('#modal-continue').on('click', function() {
       $('#video-confirm-modal-overlay').fadeOut(200);
       var vid = self.id;
@@ -46,7 +46,7 @@ $(function() {
     });
     $('#modal-cancel').on('click', function() {
       $('#video-confirm-modal-overlay').fadeOut(200);
-      $('body').removeClass('scrollDisabled');
+      $('html, body').removeClass('scrollDisabled');
     })
 
   });
@@ -60,7 +60,7 @@ $(function() {
       $('#press-video').fadeOut(100);
       $('#video-loading').fadeIn(100);
       $('#video-overlay').fadeOut(300);
-      $('body').removeClass("scrollDisabled");
+      $('html, body').removeClass("scrollDisabled");
     } else if (e.target.id === 'press-video') {
       video.paused ? video.play() : video.pause();
     }

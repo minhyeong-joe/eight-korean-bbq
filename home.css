@@ -35,7 +35,7 @@
   /* padding: 20px 50px; */
 }
 #banner-text p {
-  font-size: 36px;
+  font-size: 42px;
   text-shadow: 1px 1px 5px black;
   color: #f55733;
   font-weight: bold;
@@ -119,9 +119,6 @@
 #eightflavors img {
   max-width: 100%;
   height: auto;
-}
-#eightflavors>div {
-  padding-right: 60px;
 }
 #eightflavors>div>h2 {
   text-align: center;
@@ -298,7 +295,7 @@ button>a {
     font-size: 50px !important;
   }
   #banner-text p {
-    font-size: 22px !important;
+    font-size: 36px !important;
   }
   #about-us, #eightflavors {
     display: block;
@@ -346,7 +343,7 @@ button>a {
     font-size: 36px !important;
   }
   #banner-text>p {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
   #eightflavors-wrapper>div {
     margin: 10px 5%;

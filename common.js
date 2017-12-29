@@ -27,7 +27,7 @@ $(function(){
 
   $('menubar').on('click', function() {
     if ($('body').hasClass("scrollDisabled")) {
-      $('body').removeClass("scrollDisabled");
+      $('html, body').removeClass("scrollDisabled");
       if ($(window).scrollTop() >= 20) {
         $('header').css({"background-color": "rgba(255,255,255,1)"});
       } else {
@@ -35,7 +35,7 @@ $(function(){
       }
 
     } else {
-      $('body').addClass("scrollDisabled");
+      $('html, body').addClass("scrollDisabled");
       $('header').css({"background-color": "rgba(255,255,255,1)"});
     }
     $('.location-menu').slideUp(100);
