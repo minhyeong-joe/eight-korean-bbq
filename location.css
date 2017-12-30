@@ -64,7 +64,8 @@ hr {
 #image-wrapper img {
   height: 300px;
   width: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 button {
   outline: none;
@@ -72,6 +73,7 @@ button {
   border: 2px solid #f55733;
   font-weight: bold;
   font-size: 20px;
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
   margin: 60px auto;
 }
@@ -80,14 +82,17 @@ button>a {
   display: block;
   text-decoration: none;
   padding: 10px 30px;
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
 button:hover {
   background: #f55733;
   color: white;
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
 button:hover a {
   color: white;
+  -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
 }
