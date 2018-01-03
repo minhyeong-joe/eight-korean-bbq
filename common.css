@@ -58,7 +58,7 @@ navbar ul, #menuList {
 navbar a {
   text-decoration: none;
   color: #777;
-  padding: 12px 15px;
+  padding: 10px 15px;
   -webkit-transition: color 0.25s linear;
   transition: color 0.25s linear;
   z-index: 9999;

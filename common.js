@@ -5,10 +5,10 @@ $(function(){
   var timeout;
   $('.location-tab').mouseenter( function() {
     clearTimeout(timeout);
-    $('.location-list').fadeIn(300);
+    $('.location-list').stop(true,true).fadeIn(300);
   });
   $('.location-tab').mouseleave(function() {
-      $('.location-list').fadeOut(200);
+      $('.location-list').stop(true,true).fadeOut(200);
     });
 
   $('.location-tab>a').on('click', function(e){
