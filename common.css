@@ -236,7 +236,6 @@ section {
 /* footer */
 footer {
   opacity: 0;
-  display: flex;
   background-color: #333;
   color: white;
   padding: 30px 8px 0;

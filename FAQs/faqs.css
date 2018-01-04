@@ -35,6 +35,7 @@
   text-decoration: none;
   text-align: left;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 .accordion-title.active {
   border-bottom: none;

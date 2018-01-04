@@ -1,9 +1,18 @@
 #small-banner {
   background-image: url("../img/image.png");
 }
+body {
+  background: orange;
+}
+section {
+  width: 750px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 #franchise {
-  padding-top: 80px;
+  padding: 150px 10px 60px 10px;
   text-align: center;
+  background: white;
 }
 #franchise>img {
   width: 100%;
@@ -112,4 +121,9 @@ textarea {
 }
 #honeypot {
   display: none;
+}
+@media screen and (max-width: 768px) {
+  section {
+    max-width: 80%;
+  }
 }
