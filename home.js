@@ -66,4 +66,23 @@ $(function() {
     }
   })
 
+  // banner animation
+  var slide = 1;
+  var bannerSlider = setInterval(function(){
+    slide++;
+    $('.slideshow.display').animate({
+      opacity: 0
+    }, 1000, function() {
+      $('.slideshow.display').removeClass("display");
+    });
+    $('#slide'+slide).animate({
+      opacity: 1
+    }, 1000, function() {
+      $('#slide'+slide).addClass("display");
+      if (slide === $('.slideshow').length) {
+        slide = 0;
+      }
+    });
+  }, 5000);
+
 });

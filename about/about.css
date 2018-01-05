@@ -22,9 +22,11 @@ hr {
           justify-content: space-between;
 }
 #about-content>img {
-  height: 200px;
+  height: 300px;
   width: auto;
-  margin-right: 80px;
+  margin-right: 50px;
+  -webkit-box-shadow: 1px 1px 5px 3px gray;
+          box-shadow: 1px 1px 5px 3px gray;
 }
 #about-content>div {
   font-size: 20px;
@@ -40,7 +42,7 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255, 1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(255,255,255, 1))), url("../img/video-background.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255, 1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(255,255,255, 1))), url("../img/buena-park-7.jpg");
   background-image: linear-gradient(rgba(255,255,255, 1) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255, 1) 100%), url("../img/buena-park-7.jpg");
   background-position: 50% 60%;
   background-repeat: no-repeat;
@@ -59,6 +61,7 @@ hr {
 }
 
 #history>h1 {
+  margin-top: 80px;
   font-size: 40px;
   text-align: center;
 }
@@ -102,10 +105,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   #about-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: block;
   }
   #about-content>img {
     margin-right: 0;
@@ -136,10 +136,10 @@ hr {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: auto;
-    padding: 60px 0;
+    height: auto !important;
+    padding: 30px 0;
   }
-  #history-content>div:nth-child(2)>img {
+  #history-content>div:nth-child(even)>img {
     position: static;
   }
   .textbox {
