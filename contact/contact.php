@@ -17,7 +17,7 @@ if (count($_POST)>0) {
   $MESSAGE_BODY .= "<tr style='background: #eee;'><td style='width:120px; text-align:center;'><strong>Name:</strong></td><td>$name</td></tr>";
   $MESSAGE_BODY .= "<tr><td style='text-align:center;'><strong>Email:</strong></td><td><a href='mailto:$email'>$email</a></td></tr>";
   $MESSAGE_BODY .= "<tr><td style='text-align:center;'><strong>Message:</strong></td><td>$message</td></tr></table><br><br>";
-  $MESSAGE_BODY .= "<img src='https://eightkoreanbbq.com/img/logo-8colorfnb.jpg' alt='8-logo' height='120px' style='margin:auto;'><br></body></html>";
+  $MESSAGE_BODY .= "<img src='https://eightkoreanbbq.com/img/logo-8colorfnb.jpg' alt='8-logo' height='120px' style='display: block; margin:auto;'><br></body></html>";
 
   mail($ToEmail,  $EmailSubject, $MESSAGE_BODY, $mailheader, "-f$email");
 }
