@@ -40,7 +40,7 @@
           <li><a href="/press" class="<?php if ($page == "press") { echo "current"; } ?>">PRESS</a></li>
           <li><a href="/contact" class="<?php if ($page == "contact") { echo "current"; } ?>">CONTACT</a></li>
           <li><a href="/franchise" class="<?php if ($page == "franchise") { echo "current"; } ?>">FRANCHISE</a></li>
-          <li><a href="/FAQs" class="<?php if ($page == "faqs") { echo "current"; } ?>">FAQs</a></li>
+          <li><a href="/faqs" class="<?php if ($page == "faqs") { echo "current"; } ?>">FAQs</a></li>
         </ul>
       </navbar>
       <!-- mobile -->
@@ -63,6 +63,6 @@
         <li><a href="/press" class="<?php if ($page == "press") { echo "current"; } ?>">PRESS</a></li>
         <li><a href="/contact" class="<?php if ($page == "contact") { echo "current"; } ?>">CONTACT</a></li>
         <li><a href="/franchise" class="<?php if ($page == "franchise") { echo "current"; } ?>">FRANCHISE</a></li>
-        <li><a href="/FAQs" class="<?php if ($page == "faqs") { echo "current"; } ?>">FAQs</a></li>
+        <li><a href="/faqs" class="<?php if ($page == "faqs") { echo "current"; } ?>">FAQs</a></li>
       </ul>
     </header>
