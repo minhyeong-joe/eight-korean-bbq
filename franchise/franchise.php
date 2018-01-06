@@ -12,8 +12,8 @@ if (count($_POST)>0) {
   $message = nl2br(htmlspecialchars($_POST['message']));
 
 
-  $ToEmail = "keith@8colorsfnb.com";
-  $EmailSubject = "Eight Korean BBQ Franchise Inquiry";
+  $ToEmail = "billy_cho@hotmail.com,minhyeong.billy.joe@gmail.com";
+  $EmailSubject = "Eight Korean BBQ Franchise Inquiry from $full_name";
   $mailheader = "From: $full_name <no-reply@8colorsfnb.com> \r\n";
   $mailheader .= "Reply-To: $email \r\n";
   $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";

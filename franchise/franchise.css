@@ -124,6 +124,9 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   section {
-    max-width: 80%;
+    max-width: 100%;
+  }
+  body {
+    background: white;
   }
 }
