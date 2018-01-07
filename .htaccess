@@ -2,7 +2,7 @@ Options -MultiViews
 RewriteEngine On
 
 # To externally redirect /dir/foo.php to /dir/foo
-# RewriteCond %{REQUEST_METHOD} !POST [NC]
+RewriteCond %{REQUEST_METHOD} !POST [NC]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
 RewriteRule ^ %1 [R=301,NE,L]
 
