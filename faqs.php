@@ -45,10 +45,14 @@
           <div class="accordion">
             <a class="accordion-title" href="#accordion-3">WHERE DO I PARK?</a>
             <div class="accordion-content" id="accordion-3">
+              <p><font color="red">* * * For <strong>Los Angeles</strong> Eight Korean BBQ * * *</font></p>
+              <p>Customers may park in the shopping center parking lot.</p>
+              <p>It is not a valet parking, and the parking is completely free.</p>
+              <br>
               <p><font color="red">* * * For <strong>Buena Park</strong> Eight Korean BBQ * * *</font></p>
               <p>We understand that we have limited parking space.</p>
               <p>In case, our restaurant parking lot is full, you may use the church parking lot.</p>
-              <p>We are sorry for the inconvenience, and Thank you for your understanding.</p>
+              <p>We are sorry for the inconvenience, and thank you for your understanding.</p>
               <br>
               <p><a href="../img/parking.jpg" target="_blank">View details</a></p>
             </div>
@@ -57,50 +61,6 @@
             <a class="accordion-title" href="#accordion-4">I am seeking for a franchise opportunity.</a>
             <div class="accordion-content" id="accordion-4">
               <p>Click <a href="/franchise">HERE</a> to view details about franchise and get a free consultation.</p>
-            </div>
-          </div>
-          <div class="accordion">
-            <a class="accordion-title" href="#accordion-5">EXAMPLE QUESTION</a>
-            <div class="accordion-content" id="accordion-5">
-              <p>EXAMPLE ANSWER</p>
-              <p>EXAMPLE BULLET POINTS: </p>
-              <ul>
-                <li>Example 1</li>
-                <li>Example 2</li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion">
-            <a class="accordion-title" href="#accordion-6">EXAMPLE QUESTION</a>
-            <div class="accordion-content" id="accordion-6">
-              <p>EXAMPLE ANSWER</p>
-              <p>EXAMPLE BULLET POINTS: </p>
-              <ul>
-                <li>Example 1</li>
-                <li>Example 2</li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion">
-            <a class="accordion-title" href="#accordion-7">EXAMPLE QUESTION</a>
-            <div class="accordion-content" id="accordion-7">
-              <p>EXAMPLE ANSWER</p>
-              <p>EXAMPLE BULLET POINTS: </p>
-              <ul>
-                <li>Example 1</li>
-                <li>Example 2</li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion">
-            <a class="accordion-title" href="#accordion-8">EXAMPLE QUESTION</a>
-            <div class="accordion-content" id="accordion-8">
-              <p>EXAMPLE ANSWER</p>
-              <p>EXAMPLE BULLET POINTS: </p>
-              <ul>
-                <li>Example 1</li>
-                <li>Example 2</li>
-              </ul>
             </div>
           </div>
         </div>

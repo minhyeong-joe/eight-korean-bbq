@@ -12,7 +12,7 @@
 
 <?php include('php/header.php'); ?>
 
-    <div class="menu-overlay"></div>
+    
     <div id="video-overlay">
       <div>
         <div id="close">&times;</div>
@@ -69,16 +69,16 @@
         <div>
           <h2>EIGHT FLAVORS OF PORK BELLY</h2>
           <img src="img/eightflavors.jpg" alt="EightFlavors">
-          <p><strong style="color:#A52A2A;">Wine:</strong> Wine (in moderation), lowers the risk of heart disease, and opens blood vessels for better circulation.</p>
-          <p><strong style="color:#FF69B4">Original:</strong> All natural with no additives. Unveiling pork’s natural flavonoids, rich in Vitamin B1.</p>
-          <p><strong style="color:#333">Black Sesami:</strong> Black Sesami stimulates the metabolism and promotes general wellness of health.</p>
-          <p><strong style="color:#6495ED">Garlic:</strong> Garlic lowers cholesterol and high blood pressure, and helps the body’s natural flow.</p>
-          <p><strong style="color:#32CD32">Herb:</strong> Natural herbs alleviate stress and depression.</p>
-          <p><strong style="color:#FFA500">Curry:</strong> Curry’s complex components prevent Alzheimer’s disease, as well as certain cancers.</p>
-          <p><strong style="color:#FFA07A">Miso Paste:</strong> Miso Paste is rich in flavonoids and beneficial in circulating the body’s natural biochemistry.</p>
-          <p><strong style="color:#B22222">Red Pepper Paste:</strong> Gochujang contains protein, healthy fats, Vitamins B2, Vitamin C and carotene.</p><br>
+          <p><font style="color:#A52A2A;font-size: 22px;">Wine:</font> Wine (in moderation), lowers the risk of heart disease, and opens blood vessels for better circulation.</p>
+          <p><font style="color:#FF69B4;font-size: 22px;">Original:</font> All natural with no additives. Unveiling pork’s natural flavonoids, rich in Vitamin B1.</p>
+          <p><font style="color:#333;font-size: 22px;">Black Sesami:</font> Black Sesami stimulates the metabolism and promotes general wellness of health.</p>
+          <p><font style="color:#6495ED;font-size: 22px;">Garlic:</font> Garlic lowers cholesterol and high blood pressure, and helps the body’s natural flow.</p>
+          <p><font style="color:#32CD32;font-size: 22px;">Herb:</font> Natural herbs alleviate stress and depression.</p>
+          <p><font style="color:#f99e05;font-size: 22px;">Curry:</font> Curry’s complex components prevent Alzheimer’s disease, as well as certain cancers.</p>
+          <p><font style="color:#e65e28;font-size: 22px;">Miso Paste:</font> Miso Paste is rich in flavonoids and beneficial in circulating the body’s natural biochemistry.</p>
+          <p><font style="color:#B22222;font-size: 22px;">Red Pepper Paste:</font> Gochujang contains protein, healthy fats, Vitamins B2, Vitamin C and carotene.</p><br>
           <p><strong>9th Flavor</strong></p>
-          <p><strong style="color:#D2691E">Galbi:</strong> description.</p>
+          <p><font style="color:#D2691E;font-size: 22px;">Galbi:</font> Popular Korean style galbi ("short rib") sauce combined with our pork belly.</p>
         </div>
       </div>
       <button><a href="/menu">View Full Menu</a></button>
@@ -87,7 +87,7 @@
 
       <section>
         <div id="press">
-          <h1>FEATURED ON</h1>
+          <h1>PRESS</h1>
           <p style="text-align:center; margin-top: 10px; color: #555; font-size: 22px;">Click on logo to view related media</p>
           <hr>
           <div class="press-container">

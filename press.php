@@ -11,6 +11,27 @@
 
 <?php include('php/header.php'); ?>
 
+<div id="video-overlay">
+  <div>
+    <div id="close">&times;</div>
+    <div id="video-loading">
+      <img src="img/animated_spinner.gif" alt="" height="50px">
+    </div>
+    <video controls="controls" controlslist="nodownload" id="press-video">
+      <source type="video/mp4">
+    </video>
+  </div>
+</div>
+<div id="video-confirm-modal-overlay">
+  <div id="video-confirm-modal">
+    <p>Press Continue to play video.</p>
+    <div id="modal-btn-grp">
+      <span id="modal-continue">Continue</span>
+      <span id="modal-cancel">Cancel</span>
+    </div>
+  </div>
+</div>
+
     <div id="whitespace-header"></div>
     <div id="small-banner">
       <div id="small-banner-overlay"></div>

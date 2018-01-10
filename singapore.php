@@ -44,9 +44,11 @@
     </div>
     <hr>
       <div id="image-wrapper">
-        <img src="../img/the-central.jpg" alt="">
-        <img src="../img/the-central-in-3.jpg" alt="">
-        <img src="../img/shaw-centre-in-1.jpg" alt="">
+        <div id="image-slide">
+          <img src="../img/the-central.jpg" alt="">
+          <img src="../img/the-central-in-3.jpg" alt="">
+          <img src="../img/shaw-centre-in-1.jpg" alt="">
+        </div>
       </div>
       <div style="text-align:center;">
         <button><a href="https://8koreanbbq.com" target="_blank">Visit Singapore Website</a></button>

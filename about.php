@@ -39,7 +39,6 @@
     <div id="video-wrapper">
       <video src="https://s3-us-west-1.amazonaws.com/eight-korea-bbq-vid/food-network.mp4" controls controlsList="nodownload" poster="../img/poster.jpg"></video>
     </div>
-
     <section>
       <div id="history">
         <h1>TIMELINE</h1>

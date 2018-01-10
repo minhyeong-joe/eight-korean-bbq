@@ -93,7 +93,7 @@
                 <p>Garlic Pork Steak</p>
               </div>
             </div>
-            <h1>Prime Beef</h1>
+            <h1>USDA Prime Beef</h1>
             <div class="menu-section" id="bp-beef-menu">
               <div class="menu-box">
                 <img src="../img/menu/beef-tongue.jpg" alt="BeefTongue">
@@ -121,6 +121,8 @@
               </div>
             </div>
             <h1>Lunch Special</h1>
+            <p>* 11:30 AM - 3:00 PM</p>
+            <p> Monday Through Friday Only</p>
             <div class="menu-section" id="bp-lunch-menu">
               <div class="menu-box">
                 <img src="../img/menu/lunch-1.jpg" alt="PorkBeanSprouts">

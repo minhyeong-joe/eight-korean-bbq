@@ -14,7 +14,7 @@
     <meta property="og:description" content="<?php echo $description; ?>">
     <meta property="og:title" content="<?php echo $title; ?>">
 
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/common.css">
@@ -66,3 +66,5 @@
         <li><a href="/faqs" class="<?php if ($page == "faqs") { echo "current"; } ?>">FAQs</a></li>
       </ul>
     </header>
+
+    <div class="menu-overlay"></div>

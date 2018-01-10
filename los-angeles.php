@@ -13,14 +13,15 @@
 <?php include('php/header.php'); ?>
 
   <div id="whitespace-header"></div>
-  <div id="follow-us">
-    <h2>Follow Us</h2>
-    <p>Check us out on social to stay up-to-date</p>
-    <p>on our daily specials and celebrations</p>
-    <a href="https://www.instagram.com/explore/locations/214873930/eight-korean-bbq_los-angeles/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/Eight-Korean-BBQ_Los-Angeles-243169039179099/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://www.yelp.com/biz/eight-korean-bbq-los-angeles-2" target="_blank"><i class="fa fa-yelp" aria-hidden="true"></i></a>
-
+  <div id="follow-us" class="la">
+    <div class="follow-us-overlay">
+      <h2>Follow Us</h2>
+      <p>Check us out on social to stay up-to-date</p>
+      <p>on our daily specials and celebrations</p>
+      <a href="https://www.instagram.com/explore/locations/214873930/eight-korean-bbq_los-angeles/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/Eight-Korean-BBQ_Los-Angeles-243169039179099/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.yelp.com/biz/eight-korean-bbq-los-angeles-2" target="_blank"><i class="fa fa-yelp" aria-hidden="true"></i></a>
+    </div>
   </div>
 
   <section>
@@ -38,15 +39,17 @@
     </div>
     <hr>
     <div id="image-wrapper">
-      <img src="../img/los-angeles-1.jpg" alt="">
-      <img src="../img/los-angeles-2.jpg" alt="">
-      <img src="../img/los-angeles-3.jpg" alt="">
-      <img src="../img/los-angeles-4.jpg" alt="">
-      <img src="../img/los-angeles-10.jpg" alt="">
-      <img src="../img/los-angeles-6.jpg" alt="">
-      <img src="../img/los-angeles-7.jpg" alt="">
-      <img src="../img/los-angeles-8.jpg" alt="">
-      <img src="../img/los-angeles-5.jpg" alt="">
+      <div id="image-slide">
+        <img src="../img/los-angeles-1.jpg" alt="">
+        <img src="../img/los-angeles-2.jpg" alt="">
+        <img src="../img/los-angeles-3.jpg" alt="">
+        <img src="../img/los-angeles-4.jpg" alt="">
+        <img src="../img/los-angeles-10.jpg" alt="">
+        <img src="../img/los-angeles-6.jpg" alt="">
+        <img src="../img/los-angeles-7.jpg" alt="">
+        <img src="../img/los-angeles-8.jpg" alt="">
+        <img src="../img/los-angeles-5.jpg" alt="">
+      </div>
     </div>
   </section>
 
