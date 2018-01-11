@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "CONTACT | EIGHT KOREAN BBQ";
   $description = "Contact us for general questions using our contact form. Once submitted, you will hear from us shortly.";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/contact";
   $page = "contact";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

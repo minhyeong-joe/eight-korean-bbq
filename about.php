@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "ABOUT | EIGHT KOREAN BBQ";
   $description = "In July 2012, we have launched Palsaik Samgyupsal in Los Angeles, CA Koreatown. However, in the following year we re-branded with a new name; E!GHT KOREAN BBQ to flourish ourselves into new various communities. Since then, we expanded to multiple locations including Buena Park, OC and Singapore, and more to come. Our goal is for our customers to savor meat whilst our servers present and aid in the preparation of the delectable cuisine, seducing their taste buds to crave more.";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/about";
   $page = "about";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 
@@ -45,35 +44,35 @@
         <hr>
         <div id="history-content">
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/timeline1.gif" alt="temp">
             <div class="textbox first">
               <p>&bullet; July 2012</p>
               <p>Launched as Palsaik Samgyupsal in Los Angeles, CA</p>
             </div>
           </div>
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/timeline2.png" alt="temp" style="background:#111;">
             <div class="textbox second">
               <p>&bullet; October 2013</p>
               <p>Changed to E!GHT KOREAN BBQ</p>
             </div>
           </div>
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/timeline3.jpg" alt="temp">
             <div class="textbox first">
               <p>&bullet; November 2013</p>
               <p>Launched E!GHT KOREAN BBQ in Buena Park, CA.</p>
             </div>
           </div>
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/the-central-in-2.jpg" alt="temp">
             <div class="textbox second">
               <p>&bullet; August 2013</p>
               <p>Launched E!GHT KOREAN BBQ in Singapore</p>
             </div>
           </div>
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/timeline4.jpg" alt="temp">
             <div class="textbox first">
               <p>&bullet; September 2016</p>
               <p>Launched 2nd E!GHT KOREAN BBQ in Singapore</p>

@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "LOS ANGELES | EIGHT KOREAN BBQ";
   $description = "Eight Korean BBQ - Koreatown, Los Angeles franchise.";
@@ -8,7 +7,7 @@
   $page = "location";
   $location = "los-angeles";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "SINGAPORE | EIGHT KOREAN BBQ";
   $description = "Eight Korean BBQ - Singapore franchise information";
@@ -8,7 +7,7 @@
   $page = "location";
   $location = "singapore";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

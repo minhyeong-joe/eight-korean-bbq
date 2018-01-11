@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "FAQs | EIGHT KOREAN BBQ";
   $description = "Lists of frequently asked questions from customers. From holidays hours, estimate pricing, to parking. If you have any other specific questions, please contact the store directly or contact the main office.";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/faqs";
   $page = "faqs";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

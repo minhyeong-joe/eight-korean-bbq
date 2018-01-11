@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "MENU | EIGHT KOREAN BBQ";
   $description = "Eight Korean BBQ specializes in Premium Porks with its signature menu, 'Eight Flavors of Pork Belly'. Eight Korean BBQ also serves great Prime Beef best in quality, and some delicious Korean dishes as well.";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/menu";
   $page = "menu";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

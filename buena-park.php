@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "BUENA PARK | EIGHT KOREAN BBQ";
   $description = "Eight Korean BBQ - Buena Park location franchise. On Beach Blvd near both Fwy 91 and Fwy 5. Great atmosphere and even greater food.";
@@ -8,7 +7,7 @@
   $page = "location";
   $location = "buena-park";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

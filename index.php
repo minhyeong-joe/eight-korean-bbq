@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "EIGHT KOREAN BBQ | LOS ANGELES | BUENA PARK";
   $description = "Welcome your palate to '8 colorful flavors of pork.' We've combined spices and herbs from diverse cultures to introduce the eight complex flavors. From pork's natural flavor to seasoning that gradually amplify your taste buds and increase your appreciation for pork. Experience the difference in our unique and healthy method of grilling pork, and enjoy every step as we present to you, '8 colorful flavors of pork.'";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com";
   $page = "home";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

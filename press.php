@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "PRESS | EIGHT KOREAN BBQ";
   $description = "Press and influencers that featured the Eight Korean BBQ restaurants. We are acclaimed as 'the Best BBQ Ever'.";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/press";
   $page = "press";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 

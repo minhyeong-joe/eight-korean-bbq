@@ -1,5 +1,4 @@
-<!-- ##################################### -->
-<!-- ########### Page Info ############### -->
+
 <?php
   $title = "FRANCHISE | EIGHT KOREAN BBQ";
   $description = "Looking for franchise opportunity with Eight Colors F&B Inc.? We’re seeking savvy, passionate franchise owners to join the excitement as we expand. Ideal candidates will possess the following: Passion for the Eight Korean BBQ Product, Ability to lead, but follow a system, Food industry and management experience, Financial capability";
@@ -7,7 +6,7 @@
   $permalink = "https://eightkoreanbbq.com/franchise";
   $page = "franchise";
 ?>
-<!-- ##################################### -->
+
 
 <?php include('php/header.php'); ?>
 
