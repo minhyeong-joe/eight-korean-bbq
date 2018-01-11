@@ -9,10 +9,9 @@
 ?>
 <!-- ##################################### -->
 
-
 <?php include('php/header.php'); ?>
 
-    
+
     <div id="video-overlay">
       <div>
         <div id="close">&times;</div>
