@@ -44,14 +44,14 @@
         <hr>
         <div id="history-content">
           <div>
-            <img src="/img/timeline1.gif" alt="temp">
+            <img src="/img/image.png" alt="temp">
             <div class="textbox first">
               <p>&bullet; July 2012</p>
               <p>Launched as Palsaik Samgyupsal in Los Angeles, CA</p>
             </div>
           </div>
           <div>
-            <img src="/img/timeline2.png" alt="temp" style="background:#111;">
+            <img src="/img/full-logo.png" alt="temp" style="">
             <div class="textbox second">
               <p>&bullet; October 2013</p>
               <p>Changed to E!GHT KOREAN BBQ</p>
