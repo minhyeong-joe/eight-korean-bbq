@@ -40,8 +40,6 @@
         <div id="banner-text">
           <p>Welcome to</p>
           <img src="img/banner-logo.png" alt="">
-          <h4 style="color: #444; margin: 0 20px;">* The website is still under construction.</h4>
-          <h4 style="color: #444; margin: 0 20px;">* For full features, please visit us again at the end of January, 2018.</h4>
         </div>
         <div id="scroll-down-animation">
         </div>
