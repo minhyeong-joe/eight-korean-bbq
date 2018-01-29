@@ -44,7 +44,7 @@
         <hr>
         <div id="history-content">
           <div>
-            <img src="/img/image.png" alt="temp">
+            <img src="/img/palsaik.jpg" alt="temp">
             <div class="textbox first">
               <p>&bullet; July 2012</p>
               <p>Launched as Palsaik Samgyupsal in Los Angeles, CA</p>

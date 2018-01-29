@@ -62,6 +62,18 @@
               <p>Click <a href="/franchise">HERE</a> to view details about franchise and get a free consultation.</p>
             </div>
           </div>
+          <div class="accordion">
+            <a class="accordion-title" href="#accordion-5">Do you only have pork?</a>
+            <div class="accordion-content" id="accordion-5">
+              <p>We have Prime beefs in our menu also.</p>
+              <p>Such as: </p>
+              <ul>
+                <li>Prime Brisket</li>
+                <li>USDA Boneless Shortrib</li>
+                <li>Marinated Galbi</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

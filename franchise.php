@@ -17,16 +17,18 @@
 
     <section>
       <div id="franchise">
-        <img src="../img/logo-8colorfnb.jpg" alt="">
-        <h2>Apply for Franchise Ownership</h2>
-        <div id="franchise-list">
-          <p>We’re seeking savvy, passionate franchise owners to join the excitement as we expand. Ideal candidates will possess the following:</p>
-          <ul>
-            <li>Passion for the Eight Korean BBQ Product</li>
-            <li>Ability to lead, but follow a system</li>
-            <li>Food industry and management experience</li>
-            <li>Financial capability</li>
-          </ul>
+        <div class="left">
+          <img src="../img/logo-8colorfnb.jpg" alt="">
+          <h2>Apply for Franchise Ownership</h2>
+          <div id="franchise-list">
+            <p>We’re seeking savvy, passionate franchise owners to join the excitement as we expand. Ideal candidates will possess the following:</p>
+            <ul>
+              <li>Passion for the Eight Korean BBQ Product</li>
+              <li>Ability to lead, but follow a system</li>
+              <li>Food industry and management experience</li>
+              <li>Financial capability</li>
+            </ul>
+          </div>
         </div>
         <div id="form-wrapper">
           <h3>Get a Free Franchise Consultation</h3>
